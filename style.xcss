@@ -1,0 +1,599 @@
+/* Home Page */
+#header {
+  background-color: #20283c;
+  height: 60px !important;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  border: none;
+}
+#header .container-fluid {
+  margin-top: 10px;
+}
+#header .container-fluid .nav {
+  margin-left: 5%;
+}
+#header .container-fluid .nav li {
+  padding: 0;
+  margin: 0;
+}
+#header .container-fluid .nav li:hover {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
+#header .container-fluid .nav li a {
+  font-weight: lighter;
+  width: 75%;
+}
+#header .container-fluid .nav li a:hover {
+  border: none;
+  border-bottom: 2px solid #fff;
+  padding-bottom: 15px;
+}
+#header .container-fluid .navbar-right {
+  margin-left: -5%;
+}
+#header .navbar-search {
+  margin-top: 0px;
+  width: 355px !important;
+}
+#header .form-has-feedback #navbar-search-input {
+  border-radius: 5px;
+  height: 40px;
+  opacity: 0.63;
+}
+#header .icon-common-search-sm {
+  margin-top: 12px;
+}
+#header #navbar-search-input::placeholder {
+  opacity: 1;
+  color: #fff;
+}
+#header .avatar-card-image {
+  border: none;
+  border: 2px solid white;
+  border-radius: 5px;
+  height: 40px;
+  width: 40px;
+  margin-top: -5px;
+  margin-left: -15px;
+  background-color: rgba(30, 30, 30, 0.38);
+  filter: blur(29), brightness(-9), opacity(29);
+}
+#header #nav-robux-amount {
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+.container-main {
+  background: linear-gradient(transparent 10%, #20283c 90%), url("https://www.nme.com/wp-content/uploads/2021/11/star-wars-battlefront-2.jpg") no-repeat;
+  background-attachment: fixed;
+}
+
+.dark-theme .content {
+  background: none;
+  background-color: transparent !important;
+}
+
+#navigation {
+  margin-top: 20px;
+  width: 260px;
+  background-color: #20283c;
+}
+#navigation ul {
+  background-color: #20283c;
+  height: 58px;
+  padding-bottom: 10px;
+}
+#navigation ul .rbx-divider {
+  background-color: #3f5385;
+  height: 2px;
+}
+#navigation ul li {
+  margin-top: 10px;
+  height: 58px;
+  display: flex;
+  align-content: center;
+}
+#navigation ul li .dynamic-overflow-container {
+  padding-left: 10px;
+}
+#navigation .simplebar-content-wrapper {
+  background-color: #20283c;
+}
+#navigation .left-col-list {
+  margin: 0;
+  padding: 0;
+  width: 260px !important;
+  margin-top: 30px;
+}
+#navigation .left-col-list li {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  height: 58px;
+  width: 100%;
+}
+#navigation .left-col-list li #nav-shop {
+  height: 100%;
+  padding-left: 30px;
+}
+#navigation .left-col-list li #nav-shop .icon-nav-shop {
+  margin: 0 23px 0 0;
+  padding: 0;
+}
+#navigation .left-col-list li #nav-shop span {
+  margin: 0;
+  padding: 0;
+}
+#navigation .left-col-list li #nav-shop:hover {
+  border-left: 2px solid white;
+}
+#navigation .left-col-list li a {
+  width: 100%;
+  height: 100%;
+}
+#navigation .left-col-list li a div {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+#navigation .left-col-list li a:hover {
+  border-left: 2px solid #fff;
+}
+#navigation .left-col-list li:hover {
+  border: 0;
+  background-color: #2a344d;
+  cursor: pointer;
+}
+#navigation .rbx-scrollbar {
+  width: 100%;
+  margin: 10px 0 0 0;
+  background-color: #2a344d;
+  border-top: 1px solid #2a344d;
+}
+
+body.rbx-body.dark-theme.gotham-font:nth-child(2) div.wrap.no-gutter-ads.logged-in:nth-child(7) div.dark-theme.gotham-font:nth-child(1) div.rbx-left-col ul:nth-child(1) li:nth-child(1) a.dynamic-overflow-container.text-nav > div.font-header-2.dynamic-ellipsis-item {
+  margin-bottom: 5px;
+}
+
+body.rbx-body.dark-theme.gotham-font:nth-child(2) div.wrap.no-gutter-ads.logged-in:nth-child(7) div.dark-theme.gotham-font:nth-child(1) div.rbx-left-col ul:nth-child(1) li:nth-child(1) a.dynamic-overflow-container.text-nav span.avatar.avatar-headshot-xs > span.thumbnail-2d-container.avatar-card-image {
+  border-radius: none;
+  border-radius: 5px;
+  border: 1px solid #fff;
+  background-color: #20283c;
+  filter: blur(29), brightness(-9), opacity(29);
+}
+
+body.rbx-body.dark-theme.gotham-font:nth-child(2) div.wrap.no-gutter-ads.logged-in:nth-child(7) div.dark-theme.gotham-font:nth-child(1) div.rbx-left-col li:nth-child(1) a.dynamic-overflow-container.text-nav span.avatar.avatar-headshot-xs span.thumbnail-2d-container.avatar-card-image > img:nth-child(1) {
+  border-radius: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+body.rbx-body.dark-theme.gotham-font:nth-child(2) div.wrap.no-gutter-ads.logged-in:nth-child(7) div.dark-theme.gotham-font:nth-child(1) div.rbx-left-col div.rbx-scrollbar:nth-child(2) div.simplebar-wrapper:nth-child(1) div.simplebar-mask div.simplebar-offset div.simplebar-content-wrapper div.simplebar-content ul.left-col-list > li.rbx-upgrade-now:nth-child(12) {
+  width: 75% !important;
+  border-radius: none;
+  border-radius: 5px;
+  margin: 0 auto !important;
+  margin-top: 20px !important;
+  width: 130px !important;
+  height: 38px !important;
+}
+
+#upgrade-now-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#HomeContainer {
+  margin: 80px 0 0 60px !important;
+}
+
+body.rbx-body.dark-theme.gotham-font:nth-child(2) div.wrap.no-gutter-ads.logged-in:nth-child(7) div.container-main:nth-child(3) div.content:nth-child(3) div.row.home-container:nth-child(2) div.col-xs-12.home-header-container:nth-child(1) div.home-header a.user-avatar-container.avatar.avatar-headshot-lg > span.thumbnail-2d-container.avatar-card-image {
+  border-radius: none;
+  border-radius: 5px;
+  border: 2px solid #fff;
+  background-color: rgba(30, 30, 30, 0.38);
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+body.rbx-body.dark-theme.gotham-font:nth-child(2) div.wrap.no-gutter-ads.logged-in:nth-child(7) div.container-main:nth-child(3) div.content:nth-child(3) div.row.home-container:nth-child(2) div.col-xs-12.home-header-container:nth-child(1) div.home-header div.home-userinfo-upsell-container div.user-info-container > h1.user-name-container {
+  font-weight: lighter;
+}
+
+body.rbx-body.dark-theme.gotham-font:nth-child(2) div.wrap.no-gutter-ads.logged-in:nth-child(7) div.container-main:nth-child(3) div.content:nth-child(3) div.row.home-container:nth-child(2) div:nth-child(2) div.col-xs-12.people-list-container:nth-child(1) div.section.home-friends div.container-header.people-list-header > h3.ng-binding {
+  font-weight: lighter;
+}
+
+body.rbx-body.dark-theme.gotham-font:nth-child(2) div.wrap.no-gutter-ads.logged-in:nth-child(7) div.container-main:nth-child(3) div.content:nth-child(3) div.row.home-container:nth-child(2) div:nth-child(2) div.col-xs-12.people-list-container:nth-child(1) div.section.home-friends div.container-header.people-list-header > a.btn-secondary-xs.btn-more.see-all-link-icon.ng-binding {
+  font-weight: lighter;
+}
+
+body.rbx-body.dark-theme.gotham-font:nth-child(2) div.wrap.no-gutter-ads.logged-in:nth-child(7) div.container-main:nth-child(3) div.content:nth-child(3) div.row.home-container:nth-child(2) div.col-xs-12.home-header-container:nth-child(1) div.home-header > a.user-avatar-container.avatar.avatar-headshot-lg {
+  width: 124px;
+  height: 124px;
+}
+
+body.rbx-body.dark-theme.gotham-font:nth-child(2) div.wrap.no-gutter-ads.logged-in:nth-child(7) div.container-main:nth-child(3) div.content:nth-child(3) div.row.home-container:nth-child(2) div.col-xs-12.people-list-container:nth-child(1) div.section.home-friends div.section-content.remove-panel.people-list ul.hlist li.list-item.friend.ng-scope div.ng-scope div.avatar-container a.text-link.friend-link.ng-isolate-scope div.avatar.avatar-card-fullbody span.avatar-card-link.friend-avatar.icon-placeholder-avatar-headshot > thumbnail-2d.avatar-card-image.ng-isolate-scope {
+  border-radius: none;
+  border-radius: 5px;
+  border: 2px solid #fff;
+}
+
+body.rbx-body.dark-theme.gotham-font:nth-child(2) div.wrap.no-gutter-ads.logged-in:nth-child(7) div.container-main:nth-child(3) div.content:nth-child(3) div.row.home-container:nth-child(2) div.col-xs-12.people-list-container:nth-child(1) div.section.home-friends div.section-content.remove-panel.people-list ul.hlist li.list-item.friend.ng-scope div.ng-scope div.avatar-container a.text-link.friend-link.ng-isolate-scope div.avatar.avatar-card-fullbody span.avatar-card-link.friend-avatar.icon-placeholder-avatar-headshot thumbnail-2d.avatar-card-image.ng-isolate-scope span.thumbnail-2d-container > img.ng-scope.ng-isolate-scope {
+  background-color: rgba(30, 30, 30, 0.8);
+  filter: blur(29), brightness(-9), opacity(29);
+}
+
+body.rbx-body.dark-theme.gotham-font:nth-child(2) div.wrap.no-gutter-ads.logged-in:nth-child(7) div.container-main:nth-child(3) div.content:nth-child(3) div.row.home-container:nth-child(2) div.col-xs-12.people-list-container:nth-child(1) div.section.home-friends div.section-content.remove-panel.people-list ul.hlist li.list-item.friend.ng-scope div.ng-scope div.avatar-container a.text-link.friend-link.ng-isolate-scope > span.text-overflow.friend-name.font-caption-header.ng-binding {
+  text-align: left;
+}
+
+body.rbx-body.dark-theme.gotham-font:nth-child(2) div.wrap.no-gutter-ads.logged-in:nth-child(7) div.container-main:nth-child(3) div.content:nth-child(3) div.row.home-container:nth-child(2) div.place-list-container:nth-child(3) div.game-home-page-container div.game-carousel:nth-child(2) div.grid-item-container.game-card-container:nth-child(1) a.game-card-link span.thumbnail-2d-container.game-card-thumb-container > img {
+  border-radius: none;
+}
+
+body.rbx-body.dark-theme.gotham-font:nth-child(2) div.wrap.no-gutter-ads.logged-in:nth-child(7) div.container-main:nth-child(3) div.content:nth-child(3) div.row.home-container:nth-child(2) div.place-list-container:nth-child(3) div.game-home-page-container div.game-carousel:nth-child(2) div.grid-item-container.game-card-container a.game-card-link > span.thumbnail-2d-container.game-card-thumb-container {
+  border: none;
+  border-radius: none;
+  border-radius: 5px;
+  border: 2px solid #fff;
+  box-shadow: none;
+}
+
+body.rbx-body.dark-theme.gotham-font:nth-child(2) div.wrap.no-gutter-ads.logged-in:nth-child(7) div.container-main:nth-child(3) div.content:nth-child(3) div.row.home-container:nth-child(2) div.place-list-container:nth-child(3) div.game-home-page-container div.game-carousel:nth-child(2) > div.grid-item-container.game-card-container {
+  margin-right: 12.5px !important;
+}
+
+body.rbx-body.dark-theme.gotham-font:nth-child(2) div.wrap.no-gutter-ads.logged-in:nth-child(7) div.container-main:nth-child(3) div.content:nth-child(3) div.row.home-container:nth-child(2) div.col-xs-12.people-list-container:nth-child(1) div.section.home-friends div.section-content.remove-panel.people-list ul.hlist li.list-item.friend.ng-scope div.ng-scope > div.avatar-container {
+  margin-left: 0px !important;
+}
+
+body.rbx-body.dark-theme.gotham-font:nth-child(2) div.wrap.no-gutter-ads.logged-in:nth-child(7) div.container-main:nth-child(3) div.content:nth-child(3) div.row.home-container:nth-child(2) div.place-list-container:nth-child(3) div.game-home-page-container div.game-carousel div.grid-item-container.game-card-container a.game-card-link > span.thumbnail-2d-container.game-card-thumb-container {
+  border: none;
+  border-radius: none;
+  border-radius: 5px;
+  border: 2px solid #fff;
+  box-shadow: none;
+}
+
+body.rbx-body.dark-theme.gotham-font:nth-child(2) div.wrap.no-gutter-ads.logged-in:nth-child(7) div.container-main:nth-child(3) div.content:nth-child(3) div.row.home-container:nth-child(2) div.place-list-container:nth-child(3) div.game-home-page-container div.game-home-page-carousel-title > a.font-header-1,
+body.rbx-body.dark-theme.gotham-font:nth-child(2) div.wrap.no-gutter-ads.logged-in:nth-child(7) div.container-main:nth-child(3) div.content:nth-child(3) div.row.home-container:nth-child(2) div.place-list-container:nth-child(3) div.game-home-page-container div.game-home-page-carousel-title > a.see-all-link-icon {
+  font-weight: lighter;
+}
+
+body.rbx-body.dark-theme.gotham-font:nth-child(2) div.wrap.no-gutter-ads.logged-in:nth-child(7) div.dark-theme.gotham-font:nth-child(1) div.rbx-left-col div.rbx-scrollbar:nth-child(2) div.simplebar-wrapper:nth-child(1) div.simplebar-mask div.simplebar-offset div.simplebar-content-wrapper div.simplebar-content ul.left-col-list > li.font-bold.small.text-nav:nth-child(13) {
+  display: none !important;
+}
+
+#chat-header {
+  border-radius: none;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: #000;
+  box-shadow: none;
+  box-shadow: 0px 0px 15px #000;
+}
+
+body.rbx-body.dark-theme.gotham-font:nth-child(2) div.chat.chat-container:nth-child(8) div.chat-main div.chat-body.ng-scope > div.border-bottom.chat-search.chat-search-focus {
+  background-color: transparent;
+  filter: blur(29), brightness(-9), opacity(29);
+}
+
+body.rbx-body.dark-theme.gotham-font:nth-child(2) div.chat.chat-container:nth-child(8) div.chat-main div.chat-body.ng-scope > div.border-bottom.chat-search.chat-search-focus {
+  border-radius: none !important;
+  border-radius: 0px !important;
+}
+
+#chat-main {
+  background-color: transparent;
+}
+
+body.rbx-body.dark-theme.gotham-font:nth-child(2) div.chat.chat-container:nth-child(8) div.chat-main div.chat-body.ng-scope > div.border-bottom.chat-search.chat-search-focus {
+  background-color: transparent !important;
+}
+
+#mCSB_1 {
+  background-color: transparent !important;
+}
+
+#chat-friend-list {
+  background-color: transparent !important;
+}
+
+body.rbx-body.dark-theme.gotham-font:nth-child(2) div.chat.chat-container:nth-child(8) div.dialogs.ng-scope div.ng-scope.ng-isolate-scope:nth-child(1) div.dialog-container.ng-scope.dialog-visible div.dialog-main:nth-child(1) > div.chat-windows-header.dialog-header.hover {
+  background-color: #000 !important;
+}
+
+#dialog-container-15387512994 {
+  background-color: transparent !important;
+}
+
+body.rbx-body.dark-theme.gotham-font:nth-child(2) div.wrap.no-gutter-ads.logged-in:nth-child(7) div.dark-theme.gotham-font:nth-child(1) div.navbar-fixed-top.rbx-header:nth-child(1) div.container-fluid div:nth-child(4) div.navbar-left.navbar-search.col-xs-5.col-sm-6.col-md-2.col-lg-3.navbar-search-open.shown > ul.dropdown-menu.new-dropdown-menu,
+#buy-robux-popover-menu,
+#settings-popover-menu {
+  background-color: #20283c !important;
+  filter: blur(29), brightness(-9), opacity(29);
+}
+
+#footer-container {
+  background-color: #20283c !important;
+}
+
+/* Profile Page */
+body.rbx-body.dark-theme.gotham-font:nth-child(2) div.wrap.no-gutter-ads.logged-in:nth-child(7) div.dark-theme.gotham-font:nth-child(1) div:nth-child(2) div.rbx-left-col ul:nth-child(1) > li.rbx-divider:nth-child(2) {
+  display: none !important;
+}
+
+body.rbx-body.dark-theme.gotham-font:nth-child(2) div.wrap.no-gutter-ads.logged-in:nth-child(7) div.container-main:nth-child(3) div.content:nth-child(3) > div.profile-container.ng-scope:nth-child(4) {
+  margin-top: 10%;
+}
+
+body.rbx-body.dark-theme.gotham-font:nth-child(2) div.wrap.no-gutter-ads.logged-in:nth-child(7) div.container-main:nth-child(3) div.content:nth-child(3) div.profile-container.ng-scope:nth-child(4) div.ng-scope div.section.profile-header > div.section-content.profile-header-content.ng-scope {
+  background-color: transparent !important;
+}
+
+body.rbx-body.dark-theme.gotham-font:nth-child(2) div.wrap.no-gutter-ads.logged-in:nth-child(7) div.container-main:nth-child(3) div.content:nth-child(3) div.profile-container.ng-scope:nth-child(4) div.ng-scope > div.section.profile-header {
+  border-radius: none;
+  border-radius: 5px;
+  background-color: rgba(29, 36, 53, 0.685);
+  filter: blur(29), brightness(-9), opacity(29);
+  margin-bottom: 10px;
+}
+
+body.rbx-body.dark-theme.gotham-font:nth-child(2) div.wrap.no-gutter-ads.logged-in:nth-child(7) div.container-main:nth-child(3) div.content:nth-child(3) div.profile-container.ng-scope:nth-child(4) div.ng-scope div.section.profile-header div.section-content.profile-header-content.ng-scope div.profile-header-top:nth-child(3) div.avatar.avatar-headshot-lg.card-plain.profile-avatar-image:nth-child(1) span.avatar-card-link.avatar-image-link:nth-child(1) > thumbnail-2d.avatar-card-image.profile-avatar-thumb.ng-scope.ng-isolate-scope {
+  border-radius: none !important;
+  border-radius: 5px !important;
+  border: 2px solid white;
+}
+
+body.rbx-body.dark-theme.gotham-font:nth-child(2) div.wrap.no-gutter-ads.logged-in:nth-child(7) div.container-main:nth-child(3) div.content:nth-child(3) div.profile-container.ng-scope:nth-child(4) div.ng-scope div.section.profile-header div.section-content.profile-header-content.ng-scope div.profile-header-top:nth-child(3) div.header-caption:nth-child(2) div.header-names div.header-title > h2.profile-name.text-overflow:nth-child(3) {
+  font-weight: lighter;
+}
+
+body.rbx-body.dark-theme.gotham-font:nth-child(2) div.wrap.no-gutter-ads.logged-in:nth-child(7) div.container-main:nth-child(3) div.content:nth-child(3) div.profile-container.ng-scope:nth-child(4) div.ng-scope > div.rbx-tabs-horizontal {
+  background-color: none !important;
+  background-color: transparent !important;
+  border: 1px solid red !important;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+#tab-about {
+  background-color: rgba(29, 36, 53, 0.685);
+}
+
+#tab-creations {
+  background-color: rgba(29, 36, 53, 0.685);
+}
+
+.profile-social {
+  border-radius: 5px !important;
+}
+
+body.rbx-body.dark-theme.gotham-font:nth-child(2) div.wrap.no-gutter-ads.logged-in:nth-child(7) div.container-main:nth-child(3) div.content:nth-child(3) div.profile-container.ng-scope:nth-child(4) div.ng-scope div.rbx-tabs-horizontal div.tab-content.rbx-tab-content div.tab-pane.active:nth-child(1) div.section.profile-avatar:nth-child(2) div.container-header > h3 {
+  font-weight: lighter;
+}
+
+body.rbx-body.dark-theme.gotham-font:nth-child(2) div.wrap.no-gutter-ads.logged-in:nth-child(7) div.container-main:nth-child(3) div.content:nth-child(3) div.profile-container.ng-scope:nth-child(4) div.ng-scope div.rbx-tabs-horizontal div.tab-content.rbx-tab-content div.tab-pane.active:nth-child(1) div.section.profile-avatar:nth-child(2) > div.col-sm-6.section-content.profile-avatar-left:nth-child(2) {
+  background-color: rgba(0, 0, 0, 0.38) !important;
+  filter: blur(29), brightness(2), opacity(0);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+body.rbx-body.dark-theme.gotham-font:nth-child(2) div.wrap.no-gutter-ads.logged-in:nth-child(7) div.container-main:nth-child(3) div.content:nth-child(3) div.profile-container.ng-scope:nth-child(4) div.ng-scope div.rbx-tabs-horizontal div.tab-content.rbx-tab-content div.tab-pane.active:nth-child(1) div.section.profile-avatar:nth-child(2) > div.col-sm-6.section-content.profile-avatar-right:nth-child(3) {
+  background-color: none;
+  background-color: transparent !important;
+}
+
+body.rbx-body.dark-theme.gotham-font:nth-child(2) div.wrap.no-gutter-ads.logged-in:nth-child(7) div.container-main:nth-child(3) div.content:nth-child(3) div.profile-container.ng-scope:nth-child(4) div.ng-scope div.rbx-tabs-horizontal div.tab-content.rbx-tab-content div.tab-pane.active:nth-child(1) div.section.profile-avatar:nth-child(2) div.col-sm-6.section-content.profile-avatar-right:nth-child(3) > div.profile-avatar-mask {
+  background-color: none !important;
+  background-color: rgba(0, 0, 0, 0.38) !important;
+  border-top-right-radius: 5px !important;
+  border-bottom-right-radius: 5px !important;
+}
+
+body.rbx-body.dark-theme.gotham-font:nth-child(2) div.wrap.no-gutter-ads.logged-in:nth-child(7) div.container-main:nth-child(3) div.content:nth-child(3) div.profile-container.ng-scope:nth-child(4) div.ng-scope div.rbx-tabs-horizontal div.tab-content.rbx-tab-content div.tab-pane.active:nth-child(1) div.section.profile-avatar:nth-child(2) div.col-sm-6.section-content.profile-avatar-right:nth-child(3) div.profile-avatar-mask div.profile-accoutrements-container div.profile-accoutrements-slider ul.accoutrement-items-container li.accoutrement-item > a {
+  background-color: rgba(0, 0, 0, 0.38);
+  filter: blur(29), brightness(-9), opacity(29);
+}
+
+body.rbx-body.dark-theme.gotham-font:nth-child(2) div.wrap.no-gutter-ads.logged-in:nth-child(7) div.container-main:nth-child(3) div.content:nth-child(3) div.profile-container.ng-scope:nth-child(4) div.ng-scope div.rbx-tabs-horizontal div.tab-content.rbx-tab-content div.tab-pane.active:nth-child(1) div.section.no-self-bootstrap:nth-child(3) div:nth-child(1) div.col-xs-12.people-list-container:nth-child(1) div.section.home-friends div.container-header.people-list-header > a.btn-secondary-xs.btn-more.see-all-link-icon.ng-binding,
+body.rbx-body.dark-theme.gotham-font:nth-child(2) div.wrap.no-gutter-ads.logged-in:nth-child(7) div.container-main:nth-child(3) div.content:nth-child(3) div.profile-container.ng-scope:nth-child(4) div.ng-scope div.rbx-tabs-horizontal div.tab-content.rbx-tab-content div.tab-pane.active:nth-child(1) div.section.no-self-bootstrap:nth-child(3) div:nth-child(1) div.col-xs-12.people-list-container:nth-child(1) div.section.home-friends div.container-header.people-list-header > h3.ng-binding,
+body.rbx-body.dark-theme.gotham-font:nth-child(2) div.wrap.no-gutter-ads.logged-in:nth-child(7) div.container-main:nth-child(3) div.content:nth-child(3) div.profile-container.ng-scope:nth-child(4) div.ng-scope div.rbx-tabs-horizontal div.tab-content.rbx-tab-content div.tab-pane.active:nth-child(1) div.section.no-self-bootstrap:nth-child(3) div:nth-child(1) div.col-xs-12.people-list-container:nth-child(1) div.section.home-friends div.container-header.people-list-header > h3.ng-binding,
+body.rbx-body.dark-theme.gotham-font:nth-child(2) div.wrap.no-gutter-ads.logged-in:nth-child(7) div.container-main:nth-child(3) div.content:nth-child(3) div.profile-container.ng-scope:nth-child(4) div.ng-scope div.rbx-tabs-horizontal div.tab-content.rbx-tab-content div.tab-pane.active:nth-child(1) div.section.no-self-bootstrap:nth-child(3) div:nth-child(1) div.col-xs-12.people-list-container:nth-child(1) div.section.home-friends div.container-header.people-list-header > a.btn-secondary-xs.btn-more.see-all-link-icon.ng-binding {
+  font-weight: lighter;
+}
+
+body.rbx-body.dark-theme.gotham-font:nth-child(2) div.wrap.no-gutter-ads.logged-in:nth-child(7) div.container-main:nth-child(3) div.content:nth-child(3) div.profile-container.ng-scope:nth-child(4) div.ng-scope div.rbx-tabs-horizontal div.tab-content.rbx-tab-content div.tab-pane.active:nth-child(1) div.section.no-self-bootstrap:nth-child(3) div:nth-child(1) div.col-xs-12.people-list-container:nth-child(1) div.section.home-friends div.container-header.people-list-header > h3.ng-binding {
+  font-weight: lighter;
+}
+
+body.rbx-body.dark-theme.gotham-font:nth-child(2) div.wrap.no-gutter-ads.logged-in:nth-child(7) div.container-main:nth-child(3) div.content:nth-child(3) div.profile-container.ng-scope:nth-child(4) div.ng-scope div.rbx-tabs-horizontal div.tab-content.rbx-tab-content div.tab-pane.active:nth-child(1) div.section.no-self-bootstrap:nth-child(3) div.col-xs-12.people-list-container:nth-child(1) div.section.home-friends div.section-content.remove-panel.people-list ul.hlist li.list-item.friend.ng-scope div.ng-scope div.avatar-container a.text-link.friend-link.ng-isolate-scope div.avatar.avatar-card-fullbody > span.avatar-card-link.friend-avatar.icon-placeholder-avatar-headshot {
+  border: none !important;
+}
+
+body.rbx-body.dark-theme.gotham-font:nth-child(2) div.wrap.no-gutter-ads.logged-in:nth-child(7) div.container-main:nth-child(3) div.content:nth-child(3) div.profile-container.ng-scope:nth-child(4) div.ng-scope div.rbx-tabs-horizontal div.tab-content.rbx-tab-content div.tab-pane.active:nth-child(1) div.section.no-self-bootstrap:nth-child(3) div.col-xs-12.people-list-container:nth-child(1) div.section.home-friends div.section-content.remove-panel.people-list ul.hlist li.list-item.friend.ng-scope div.ng-scope div.avatar-container a.text-link.friend-link.ng-isolate-scope div.avatar.avatar-card-fullbody span.avatar-card-link.friend-avatar.icon-placeholder-avatar-headshot > thumbnail-2d.avatar-card-image.ng-isolate-scope {
+  border-radius: none;
+  border-radius: 5px;
+  background-color: transparent !important;
+}
+
+body.rbx-body.dark-theme.gotham-font:nth-child(2) div.wrap.no-gutter-ads.logged-in:nth-child(7) div.container-main:nth-child(3) div.content:nth-child(3) div.profile-container.ng-scope:nth-child(4) div.ng-scope div.rbx-tabs-horizontal div.tab-content.rbx-tab-content div.tab-pane.active:nth-child(1) div.section.no-self-bootstrap:nth-child(3) div.col-xs-12.people-list-container:nth-child(1) div.section.home-friends div.section-content.remove-panel.people-list ul.hlist li.list-item.friend.ng-scope div.ng-scope div.avatar-container a.text-link.friend-link.ng-isolate-scope div.avatar.avatar-card-fullbody span.avatar-card-link.friend-avatar.icon-placeholder-avatar-headshot thumbnail-2d.avatar-card-image.ng-isolate-scope span.thumbnail-2d-container > img.ng-scope.ng-isolate-scope {
+  border-radius: none;
+  border-radius: 5px;
+  background-color: transparent !important;
+  border: 2px solid white !important;
+}
+
+body.rbx-body.dark-theme.gotham-font:nth-child(2) div.wrap.no-gutter-ads.logged-in:nth-child(7) div.container-main:nth-child(3) div.content:nth-child(3) div.profile-container.ng-scope:nth-child(4) div.ng-scope div.rbx-tabs-horizontal div.tab-content.rbx-tab-content div.tab-pane.active:nth-child(1) div.section.no-self-bootstrap:nth-child(3) div.col-xs-12.people-list-container:nth-child(1) div.section.home-friends div.section-content.remove-panel.people-list ul.hlist li.list-item.friend.ng-scope div.ng-scope div.avatar-container a.text-link.friend-link.ng-isolate-scope div.avatar.avatar-card-fullbody > span.avatar-card-link.friend-avatar.icon-placeholder-avatar-headshot {
+  background-color: transparent !important;
+  border-radius: none;
+  border-radius: 5px;
+}
+
+body.rbx-body.dark-theme.gotham-font:nth-child(2) div.wrap.no-gutter-ads.logged-in:nth-child(7) div.container-main:nth-child(3) div.content:nth-child(3) div.profile-container.ng-scope:nth-child(4) div.ng-scope div.rbx-tabs-horizontal div.tab-content.rbx-tab-content div.tab-pane.active:nth-child(1) div.section.no-self-bootstrap:nth-child(3) div:nth-child(1) div.col-xs-12.people-list-container:nth-child(1) div.section.home-friends div.container-header.people-list-header > a.btn-secondary-xs.btn-more.see-all-link-icon.ng-binding {
+  font-weight: lighter;
+}
+
+body.rbx-body.dark-theme.gotham-font:nth-child(2) div.wrap.no-gutter-ads.logged-in:nth-child(7) div.container-main:nth-child(3) div.content:nth-child(3) div.profile-container.ng-scope:nth-child(4) div.ng-scope div.rbx-tabs-horizontal div.tab-content.rbx-tab-content div.tab-pane.active:nth-child(1) > div.section.layer.profile-collections.ng-scope:nth-child(4) {
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.38) !important;
+  filter: blur(29), brightness(-9), opacity(29);
+}
+
+body.rbx-body.dark-theme.gotham-font:nth-child(2) div.wrap.no-gutter-ads.logged-in:nth-child(7) div.container-main.touch.on-phone:nth-child(3) div.content:nth-child(3) div.profile-container.ng-scope:nth-child(4) div.ng-scope div.rbx-tabs-horizontal div.tab-content.rbx-tab-content div.tab-pane.active:nth-child(1) div.ng-isolate-scope:nth-child(5) div.ng-scope.section div.profile-slide-container.section-content.remove-panel div.switcher.slide-switcher.groups.ng-isolate-scope ul.slide-items-container.switcher-items.hlist > li.switcher-item.slide-item-container.ng-scope.active {
+  background-color: rgba(0, 0, 0, 0.38) !important;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+body.rbx-body.dark-theme.gotham-font:nth-child(2) div.wrap.no-gutter-ads.logged-in:nth-child(7) div.container-main:nth-child(3) div.content:nth-child(3) div.profile-container.ng-scope:nth-child(4) div.ng-scope div.rbx-tabs-horizontal div.tab-content.rbx-tab-content div.tab-pane.active:nth-child(1) div.ng-isolate-scope:nth-child(5) div.ng-scope.section div.profile-slide-container.section-content.remove-panel div.switcher.slide-switcher.groups.ng-isolate-scope ul.slide-items-container.switcher-items.hlist li.switcher-item.slide-item-container.ng-scope.active > div.col-sm-6.slide-item-container-left:nth-child(1) {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+#groups-switcher,
+body.rbx-body.dark-theme.gotham-font:nth-child(2) div.wrap.no-gutter-ads.logged-in:nth-child(7) div.container-main.touch.on-phone:nth-child(3) div.content:nth-child(3) div.profile-container.ng-scope:nth-child(4) div.ng-scope div.rbx-tabs-horizontal div.tab-content.rbx-tab-content div.tab-pane.active:nth-child(1) div.ng-isolate-scope:nth-child(5) div.ng-scope.section div.profile-slide-container.section-content.remove-panel div.switcher.slide-switcher.groups.ng-isolate-scope > ul.slide-items-container.switcher-items.hlist,
+body.rbx-body.dark-theme.gotham-font:nth-child(2) div.wrap.no-gutter-ads.logged-in:nth-child(7) div.container-main.touch.on-phone:nth-child(3) div.content:nth-child(3) div.profile-container.ng-scope:nth-child(4) div.ng-scope div.rbx-tabs-horizontal div.tab-content.rbx-tab-content div.tab-pane.active:nth-child(1) div.ng-isolate-scope:nth-child(5) div.ng-scope.section div.profile-slide-container.section-content.remove-panel div.switcher.slide-switcher.groups.ng-isolate-scope ul.slide-items-container.switcher-items.hlist li.switcher-item.slide-item-container.ng-scope.active > div.col-sm-6.slide-item-container-left:nth-child(1) {
+  background-color: transparent !important;
+  border-radius: 5px;
+}
+
+body.rbx-body.dark-theme.gotham-font:nth-child(2) div.wrap.no-gutter-ads.logged-in:nth-child(7) div.container-main.touch.on-phone:nth-child(3) div.content:nth-child(3) div.profile-container.ng-scope:nth-child(4) div.ng-scope div.rbx-tabs-horizontal div.tab-content.rbx-tab-content div.tab-pane.active:nth-child(1) div.ng-isolate-scope:nth-child(5) div.ng-scope.section div.profile-slide-container.section-content.remove-panel div.switcher.slide-switcher.groups.ng-isolate-scope ul.slide-items-container.switcher-items.hlist li.switcher-item.slide-item-container.ng-scope.active > div.col-sm-6.text-overflow.slide-item-container-right.groups:nth-child(2) {
+  background-color: transparent !important;
+}
+
+body.rbx-body.dark-theme.gotham-font:nth-child(2) div.wrap.no-gutter-ads.logged-in:nth-child(7) div.container-main.touch.on-phone:nth-child(3) div.content:nth-child(3) div.profile-container.ng-scope:nth-child(4) div.ng-scope div.rbx-tabs-horizontal div.tab-content.rbx-tab-content div.tab-pane.active:nth-child(1) div.ng-isolate-scope:nth-child(5) div.ng-scope.section div.container-header div.container-buttons > button.profile-view-selector.btn-secondary-xs.btn-generic-slideshow-xs:nth-child(1),
+body.rbx-body.dark-theme.gotham-font:nth-child(2) div.wrap.no-gutter-ads.logged-in:nth-child(7) div.container-main.touch.on-phone:nth-child(3) div.content:nth-child(3) div.profile-container.ng-scope:nth-child(4) div.ng-scope div.rbx-tabs-horizontal div.tab-content.rbx-tab-content div.tab-pane.active:nth-child(1) div.ng-isolate-scope:nth-child(5) div.ng-scope.section div.container-header div.container-buttons > button.profile-view-selector.btn-control-xs.btn-generic-grid-xs:nth-child(2) {
+  border-radius: none !important;
+  border-radius: 5px;
+}
+
+body.rbx-body.dark-theme.gotham-font:nth-child(2) div.wrap.no-gutter-ads.logged-in:nth-child(7) div.container-main:nth-child(3) div.content:nth-child(3) div.profile-container.ng-scope:nth-child(4) div.ng-scope div.rbx-tabs-horizontal div.tab-content.rbx-tab-content div.tab-pane.active:nth-child(1) div.container-list.favorite-games-container:nth-child(6) ul.hlist.game-cards li.list-item.game-card.game-tile div.game-card-container a.game-card-link div.game-card-thumb-container > img.game-card-thumb.ng-isolate-scope {
+  border: 2px solid white !important;
+}
+
+body.rbx-body.dark-theme.gotham-font:nth-child(2) div.wrap.no-gutter-ads.logged-in:nth-child(7) div.container-main:nth-child(3) div.content:nth-child(3) div.profile-container.ng-scope:nth-child(4) div.ng-scope div.rbx-tabs-horizontal div.tab-content.rbx-tab-content div.tab-pane.active:nth-child(1) div.section:nth-child(8) div.section-content.remove-panel ul.hlist.badge-list li.list-item.asset-item a span.thumbnail-2d-container > img.asset-thumb-container {
+  background-color: transparent !important;
+}
+
+body.rbx-body.dark-theme.gotham-font:nth-child(2) div.wrap.no-gutter-ads.logged-in:nth-child(7) div.container-main:nth-child(3) div.content:nth-child(3) div.profile-container.ng-scope:nth-child(4) div.ng-scope div.rbx-tabs-horizontal div.tab-content.rbx-tab-content div.tab-pane.active:nth-child(1) div.section:nth-child(8) div.section-content.remove-panel ul.hlist.badge-list li.list-item.asset-item a > span.thumbnail-2d-container {
+  background-color: transparent !important;
+}
+
+body.rbx-body.dark-theme.gotham-font:nth-child(2) div.wrap.no-gutter-ads.logged-in:nth-child(7) div.container-main:nth-child(3) div.content:nth-child(3) div.profile-container.ng-scope:nth-child(4) div.ng-scope div.rbx-tabs-horizontal div.tab-content.rbx-tab-content div.tab-pane.active:nth-child(1) div.ng-isolate-scope:nth-child(5) div.ng-scope.section div.profile-slide-container.section-content.remove-panel div.switcher.slide-switcher.groups.ng-isolate-scope ul.slide-items-container.switcher-items.hlist li.switcher-item.slide-item-container.ng-scope.active > div.col-sm-6.text-overflow.slide-item-container-right.groups:nth-child(2) {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: rgba(0, 0, 0, 0.38);
+}
+
+body.rbx-body.dark-theme.gotham-font:nth-child(2) div.wrap.no-gutter-ads.logged-in:nth-child(7) div.container-main:nth-child(3) div.content:nth-child(3) div.profile-container.ng-scope:nth-child(4) div.ng-scope div.rbx-tabs-horizontal div.tab-content.rbx-tab-content div.tab-pane.active:nth-child(1) div.section.profile-statistics:nth-child(9) div.section.profile-statistics > div.section-content,
+body.rbx-body.dark-theme.gotham-font:nth-child(2) div.wrap.no-gutter-ads.logged-in:nth-child(7) div.container-main:nth-child(3) div.content:nth-child(3) div.profile-container.ng-scope:nth-child(4) div.ng-scope div.rbx-tabs-horizontal div.tab-content.rbx-tab-content div.tab-pane.active:nth-child(1) div.section.layer.profile-collections.ng-scope div.section-content.remove-panel.ng-scope ul.hlist.collections-list.item-list.ng-scope li.list-item.asset-item.collections-item.ng-scope a.collections-link div.img-container > img.asset-thumb-container.ng-isolate-scope {
+  background-color: rgba(0, 0, 0, 0.38);
+  filter: blur(29), brightness(-9), opacity(29);
+  border-radius: 5px;
+}
+
+body.rbx-body.dark-theme.gotham-font:nth-child(2) div.wrap.no-gutter-ads.logged-in:nth-child(7) div.container-main.touch.on-phone:nth-child(3) div.content:nth-child(3) div.profile-container.ng-scope:nth-child(4) div.ng-scope div.rbx-tabs-horizontal div.tab-content.rbx-tab-content div.tab-pane.active:nth-child(1) div.section.no-self-bootstrap div.col-xs-12.people-list-container div.section.home-friends div.section-content.remove-panel.people-list ul.hlist li.list-item.friend.ng-scope div.ng-scope div.avatar-container a.text-link.friend-link.ng-isolate-scope > span.text-overflow.friend-name.font-caption-header.ng-binding {
+  text-align: left;
+}
+
+body.rbx-body.dark-theme.gotham-font div.wrap.no-gutter-ads.logged-in div.container-main.touch.on-phone div.content div.profile-container.ng-scope div.ng-scope div.rbx-tabs-horizontal div.tab-content.rbx-tab-content div.tab-pane.active div.section.layer.profile-collections.ng-scope div.container-header > h3.ng-binding {
+  font-weight: lighter;
+}
+
+body.rbx-body.dark-theme.gotham-font:nth-child(2) div.wrap.no-gutter-ads.logged-in:nth-child(7) div.container-main.touch.on-phone:nth-child(3) div.content:nth-child(3) div.profile-container.ng-scope:nth-child(4) div.ng-scope div.rbx-tabs-horizontal div.tab-content.rbx-tab-content div.tab-pane.active:nth-child(1) div.ng-isolate-scope:nth-child(5) div.ng-scope.ng-hide.section div.container-header > h3.ng-binding {
+  font-weight: lighter;
+}
+
+body.rbx-body.dark-theme.gotham-font:nth-child(2) div.wrap.no-gutter-ads.logged-in:nth-child(7) div.container-main.touch.on-phone:nth-child(3) div.content:nth-child(3) div.profile-container.ng-scope:nth-child(4) div.ng-scope div.rbx-tabs-horizontal div.tab-content.rbx-tab-content div.tab-pane.active:nth-child(1) div.container-list.favorite-games-container:nth-child(6) div.container-header > h3.ng-binding {
+  font-weight: lighter;
+}
+
+body.rbx-body.dark-theme.gotham-font:nth-child(2) div.wrap.no-gutter-ads.logged-in:nth-child(7) div.container-main.touch.on-phone:nth-child(3) div.content:nth-child(3) div.profile-container.ng-scope:nth-child(4) div.ng-scope div.rbx-tabs-horizontal div.tab-content.rbx-tab-content div.tab-pane.active:nth-child(1) div.section:nth-child(8) div.container-header > h3:nth-child(1) {
+  font-weight: lighter;
+}
+
+body.rbx-body.dark-theme.gotham-font:nth-child(2) div.wrap.no-gutter-ads.logged-in:nth-child(7) div.container-main.touch.on-phone:nth-child(3) div.content:nth-child(3) div.profile-container.ng-scope:nth-child(4) div.ng-scope div.rbx-tabs-horizontal div.tab-content.rbx-tab-content div.tab-pane.active:nth-child(1) div.section.profile-statistics:nth-child(9) div.section.profile-statistics div.container-header > h3:nth-child(1) {
+  font-weight: lighter;
+}
+
+body.rbx-body.dark-theme.gotham-font:nth-child(2) div.wrap.no-gutter-ads.logged-in:nth-child(7) div.container-main.touch.on-phone:nth-child(3) div.content:nth-child(3) div.profile-container.ng-scope:nth-child(4) div.ng-scope div.rbx-tabs-horizontal div.tab-content.rbx-tab-content div.tab-pane.active:nth-child(1) div.section.profile-statistics:nth-child(9) div.section.profile-statistics div.container-header > h3:nth-child(1) {
+  font-weight: lighter;
+}
+
+body.rbx-body.dark-theme.gotham-font:nth-child(2) div.wrap.no-gutter-ads.logged-in:nth-child(7) div.container-main.touch.on-phone:nth-child(3) div.content:nth-child(3) div.profile-container.ng-scope:nth-child(4) div.ng-scope div.rbx-tabs-horizontal div.tab-content.rbx-tab-content div.tab-pane.active:nth-child(1) div.ng-isolate-scope:nth-child(5) div.ng-scope.section div.container-header > h3.ng-binding {
+  font-weight: lighter;
+}
+
+#games-switcher {
+  background-color: rgba(0, 0, 0, 0.38) !important;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+body.rbx-body.dark-theme.gotham-font:nth-child(2) div.wrap.no-gutter-ads.logged-in:nth-child(7) div.container-main.touch.on-phone:nth-child(3) div.content:nth-child(3) div.profile-container.ng-scope:nth-child(4) div.ng-scope div.rbx-tabs-horizontal div.tab-content.rbx-tab-content div.tab-pane.active:nth-child(2) div.profile-game.ng-scope.section:nth-child(1) div.switcher.slide-switcher.games.ng-isolate-scope ul.slide-items-container.switcher-items.hlist li.switcher-item.slide-item-container.active > div.col-sm-6.slide-item-container-left:nth-child(1) {
+  background-color: transparent !important;
+}
+
+body.rbx-body.dark-theme.gotham-font:nth-child(2) div.wrap.no-gutter-ads.logged-in:nth-child(7) div.container-main.touch.on-phone:nth-child(3) div.content:nth-child(3) div.profile-container.ng-scope:nth-child(4) div.ng-scope div.rbx-tabs-horizontal div.tab-content.rbx-tab-content div.tab-pane.active:nth-child(2) div.profile-game.ng-scope.section:nth-child(1) div.switcher.slide-switcher.games.ng-isolate-scope ul.slide-items-container.switcher-items.hlist li.switcher-item.slide-item-container.active > div.col-sm-6.slide-item-container-right.games:nth-child(2) {
+  background-color: transparent !important;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+body.rbx-body.dark-theme.gotham-font:nth-child(2) div.wrap.no-gutter-ads.logged-in:nth-child(7) div.container-main:nth-child(3) div.content:nth-child(3) div.profile-container.ng-scope:nth-child(4) div.ng-scope div.section.profile-header div.section-content.profile-header-content.ng-scope div.profile-header-top:nth-child(3) div.avatar.avatar-headshot-lg.card-plain.profile-avatar-image:nth-child(1) span.avatar-card-link.avatar-image-link:nth-child(1) > thumbnail-2d.avatar-card-image.profile-avatar-thumb.ng-scope.ng-isolate-scope {
+  background-color: transparent !important;
+}
+
+body.rbx-body.dark-theme.gotham-font:nth-child(2) div.wrap.no-gutter-ads.logged-in:nth-child(7) div.container-main.touch.on-phone:nth-child(3) div.content:nth-child(3) div.profile-container.ng-scope:nth-child(4) div.ng-scope div.section.profile-header div.section-content.profile-header-content.ng-scope div.profile-header-top:nth-child(3) div.avatar.avatar-headshot-lg.card-plain.profile-avatar-image:nth-child(1) span.avatar-card-link.avatar-image-link:nth-child(1) thumbnail-2d.avatar-card-image.profile-avatar-thumb.ng-scope.ng-isolate-scope > span.thumbnail-2d-container {
+  background-color: transparent !important;
+}
+
+body.rbx-body.dark-theme.gotham-font:nth-child(2) div.wrap.no-gutter-ads.logged-in:nth-child(7) div.container-main.touch.on-phone:nth-child(3) div.content:nth-child(3) div.profile-container.ng-scope:nth-child(4) div.ng-scope div.rbx-tabs-horizontal div.tab-content.rbx-tab-content div.tab-pane.active:nth-child(2) div.profile-game.ng-scope.section:nth-child(1) div.container-header > h3:nth-child(1) {
+  font-weight: lighter;
+}
+
+body.rbx-body.dark-theme.gotham-font:nth-child(2) div.wrap.no-gutter-ads.logged-in:nth-child(7) div.container-main.touch.on-phone:nth-child(3) div.content:nth-child(3) div.profile-container.ng-scope:nth-child(4) div.ng-scope div.rbx-tabs-horizontal div.tab-content.rbx-tab-content div.tab-pane.active:nth-child(2) div.profile-game.ng-scope.section:nth-child(1) div.container-header > h3:nth-child(1) {
+  background-color: transparent !important;
+}
+
+body.rbx-body.dark-theme.gotham-font:nth-child(2) div.wrap.no-gutter-ads.logged-in:nth-child(7) div.container-main:nth-child(3) div.content:nth-child(3) div.messages-container:nth-child(2) div.rbx-tabs-horizontal.rbx-scrollable-tabs-horizontal.roblox-messages-container.ng-scope > ul.nav.nav-tabs {
+  border-radius: 5px;
+  background-color: rgba(30, 30, 30, 0.8);
+}
+
+body.rbx-body.dark-theme.gotham-font:nth-child(2) div.wrap.no-gutter-ads.logged-in:nth-child(7) div.container-main.touch.on-phone:nth-child(3) div.content:nth-child(3) div.messages-container:nth-child(2) div.rbx-tabs-horizontal.rbx-scrollable-tabs-horizontal.roblox-messages-container.ng-scope ul.nav.nav-tabs > li.rbx-tab.ng-scope.active {
+  background-color: #20283c;
+}
+
+body.rbx-body.dark-theme.gotham-font:nth-child(2) div.wrap.no-gutter-ads.logged-in:nth-child(7) div.container-main:nth-child(3) div.content:nth-child(3) div.messages-container:nth-child(2) div.rbx-tabs-horizontal.rbx-scrollable-tabs-horizontal.roblox-messages-container.ng-scope ui-view.tab-content.rbx-tab-content.tab-active.ng-scope div.tab-content.rbx-tab-content.ng-scope div.top-nav.inbox-buttons div.ng-scope div.roblox-messages-btns div.message-actions.ng-scope:nth-child(1) span.action-buttons.hidden-xs:nth-child(2) > button.btn-control-sm.roblox-archiveButton.ng-binding:nth-child(1),
+body.rbx-body.dark-theme.gotham-font:nth-child(2) div.wrap.no-gutter-ads.logged-in:nth-child(7) div.container-main.touch.on-phone:nth-child(3) div.content:nth-child(3) div.messages-container:nth-child(2) div.rbx-tabs-horizontal.rbx-scrollable-tabs-horizontal.roblox-messages-container.ng-scope ui-view.tab-content.rbx-tab-content.tab-active.ng-scope div.tab-content.rbx-tab-content.ng-scope div.top-nav.inbox-buttons div.ng-scope div.roblox-messages-btns div.message-actions.ng-scope:nth-child(1) span.action-buttons.hidden-xs:nth-child(2) > button.btn-control-sm.roblox-markAsReadInbox.ng-binding:nth-child(2),
+body.rbx-body.dark-theme.gotham-font:nth-child(2) div.wrap.no-gutter-ads.logged-in:nth-child(7) div.container-main.touch.on-phone:nth-child(3) div.content:nth-child(3) div.messages-container:nth-child(2) div.rbx-tabs-horizontal.rbx-scrollable-tabs-horizontal.roblox-messages-container.ng-scope ui-view.tab-content.rbx-tab-content.tab-active.ng-scope div.tab-content.rbx-tab-content.ng-scope div.top-nav.inbox-buttons div.ng-scope div.roblox-messages-btns div.message-actions.ng-scope:nth-child(1) span.action-buttons.hidden-xs:nth-child(2) > button.btn-control-sm.roblox-markAsUnreadInbox.ng-binding:nth-child(3),
+body.rbx-body.dark-theme.gotham-font:nth-child(2) div.wrap.no-gutter-ads.logged-in:nth-child(7) div.container-main.touch.on-phone:nth-child(3) div.content:nth-child(3) div.messages-container:nth-child(2) div.rbx-tabs-horizontal.rbx-scrollable-tabs-horizontal.roblox-messages-container.ng-scope ui-view.tab-content.rbx-tab-content.tab-active.ng-scope div.tab-content.rbx-tab-content.ng-scope div.bottom-nav.inbox-buttons div.ng-scope div.roblox-messages-btns div.message-actions.ng-scope:nth-child(1) span.action-buttons.hidden-xs:nth-child(2) > button.btn-control-sm.roblox-archiveButton.ng-binding:nth-child(1),
+body.rbx-body.dark-theme.gotham-font:nth-child(2) div.wrap.no-gutter-ads.logged-in:nth-child(7) div.container-main.touch.on-phone:nth-child(3) div.content:nth-child(3) div.messages-container:nth-child(2) div.rbx-tabs-horizontal.rbx-scrollable-tabs-horizontal.roblox-messages-container.ng-scope ui-view.tab-content.rbx-tab-content.tab-active.ng-scope div.tab-content.rbx-tab-content.ng-scope div.bottom-nav.inbox-buttons div.ng-scope div.roblox-messages-btns div.message-actions.ng-scope:nth-child(1) span.action-buttons.hidden-xs:nth-child(2) > button.btn-control-sm.roblox-markAsReadInbox.ng-binding:nth-child(2),
+body.rbx-body.dark-theme.gotham-font:nth-child(2) div.wrap.no-gutter-ads.logged-in:nth-child(7) div.container-main.touch.on-phone:nth-child(3) div.content:nth-child(3) div.messages-container:nth-child(2) div.rbx-tabs-horizontal.rbx-scrollable-tabs-horizontal.roblox-messages-container.ng-scope ui-view.tab-content.rbx-tab-content.tab-active.ng-scope div.tab-content.rbx-tab-content.ng-scope div.bottom-nav.inbox-buttons div.ng-scope div.roblox-messages-btns div.message-actions.ng-scope:nth-child(1) span.action-buttons.hidden-xs:nth-child(2) > button.btn-control-sm.roblox-markAsUnreadInbox.ng-binding:nth-child(3) {
+  border-radius: 5px;
+}
+
+body.rbx-body.dark-theme.gotham-font:nth-child(2) div.wrap.no-gutter-ads.logged-in:nth-child(7) div.container-main:nth-child(3) div.content:nth-child(3) div.messages-container:nth-child(2) div.rbx-tabs-horizontal.rbx-scrollable-tabs-horizontal.roblox-messages-container.ng-scope ui-view.tab-content.rbx-tab-content.tab-active.ng-scope div.tab-content.rbx-tab-content.ng-scope div.ng-scope div.ng-scope div.ng-scope div.messages > div.border-top.sub-divider-bottom.messageDivider.roblox-message-row.ng-scope.read {
+  padding: 10px 5px;
+  background-color: rgba(0, 0, 0, 0.38) !important;
+  border-radius: 5px;
+}
+
+body.rbx-body.dark-theme.gotham-font:nth-child(2) div.wrap.no-gutter-ads.logged-in:nth-child(7) div.container-main.touch.on-phone:nth-child(3) div.content:nth-child(3) div:nth-child(2) div.row.page-content div.rbx-tabs-horizontal.rbx-scrollable-tabs-horizontal:nth-child(3) > ul.nav.nav-tabs {
+  background-color: rgba(30, 30, 30, 0.8) !important;
+  border-radius: none !important;
+  border-radius: 5px !important;
+}
+
+#friends {
+  background-color: #20283c;
+  border-radius: 5px;
+}
+
+/*# sourceMappingURL=style.xcss.map */

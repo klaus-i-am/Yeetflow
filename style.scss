@@ -1,0 +1,51 @@
+.copyButton {
+  background-color: rgba(255, 255, 255,1);
+  color: black;
+  padding: 5px 10px;
+  border-radius: 5px;
+  bottom: 10px;
+  border: none;
+  margin: 0 5px 0 0;
+  float: right;
+  z-index: 1;
+  &:hover {
+    background-color: rgba(198, 198, 198, 0.6);
+    color: white;
+    cursor: pointer;
+  }
+}
+.disabled {
+  background-color:rgba(99, 99, 99, 0.75);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  bottom: 10px;
+  border: none;
+  margin: 0 10px 0 0;
+  float: right;
+  z-index: 1;
+}
+.tooltip {
+  display: none;
+  border-radius: 5px;
+  background-color: black;
+  font-size: 14px;
+  padding: 5px 10px;
+  margin-top: -45px;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.75);
+  float: right;
+  z-index: 2;
+  &::before {
+    //background-color: black;
+    margin: 22px 15px 0 18px;
+    width: 0; 
+    height: 0; 
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #000;
+    content: '';
+    display: block;
+    position: absolute;
+    //transform: rotate(-30deg);
+  }
+}
